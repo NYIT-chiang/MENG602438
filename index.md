@@ -81,7 +81,7 @@ and _**k**_ = <span id="display7" ></span>(N/m)<br>
 (i) Use eigenvalues to solve for freqencies.<br>
 (ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m<sub>1</sub> mass.<br>
 
-<input type="submit" onclick="return printpdf()" value="Print">
+<input type="submit" onclick="window.print()" value="Print">
 ## Submission
 Use above print bottom to save your exam sheet to pdf and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Please submit your solution before 11:45pm April 30th 2020. 
 
