@@ -13,7 +13,7 @@ Time: 5:45pm - 11:45pm
 </form>
 <br>
 The question is for student: 
-<div id="display" style="height: 25px; width: 100%;"></div>
+<div id="display" style="height: 25px; width: 100%; font-weight: bold;"></div>
 <br>
 
 <script>
