@@ -29,7 +29,7 @@ function getp(){
     document.getElementById("display1_3").innerHTML = [1/(2+b), 1/(b+1), 1/b];
     document.getElementById("display1_4").innerHTML = [1, 1, 1];
     document.getElementById("display2_1").innerHTML = 1+b/10;
-    document.getElementById("display2_1").innerHTML = 1+c/10;
+    document.getElementById("display2_2").innerHTML = 1+c/10;
     document.getElementById("display3_1").innerHTML = 1+b%4;
     document.getElementById("display3_2").innerHTML = 1+c%4;
     return false
@@ -39,7 +39,7 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
-**A** = [<span id="display1_1" ></span><br>
+**A** = [<span id="display1_1";step="0.01"; ></span><br>
 <span id="display1_2" ></span><br>
 <span id="display1_3" ></span>]
 <br>
