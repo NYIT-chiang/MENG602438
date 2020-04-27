@@ -89,7 +89,7 @@ and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 Use above print bottom to save your exam sheet to pdf and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Please submit your solution before 11:45pm April 30th 2020. 
 
 ### Notice
-If the the values and euqations don't match to your problem sheet, no credit will be given for this exam. 
+If the the values and euqations don't match to your problem sheet, no credit will be given for this exam. <br>
 This is an openbook exam, any tool, program, or online resource are allowed in the exam. 
 <br>
 
