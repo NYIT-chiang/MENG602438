@@ -18,18 +18,20 @@ The question is for student:
 
 <script>
 function getp(){
-    var a = document.forms["percentageBiz"]["name"].value;
-    var b = document.forms["percentageBiz"]["nyitid"].value;
-    var display=document.getElementById("display")
-    display.innerHTML=a;
-    display2_1.innerHTML=[1/parseInt(b,10), 1/(parseInt(b,10)-1), 1/(parseInt(b,10)-2)];
-    display2_2.innerHTML=[1/(1+parseInt(b,10)), 1/parseInt(b,10), 1/(parseInt(b,10)-1)];
-    display2_3.innerHTML=[1/(2+parseInt(b,10)), 1/(parseInt(b,10)+1), 1/parseInt(b,10)];
-    display3.innerHTML=[1, 1, 1];
-    display4.innerHTML=1+parseInt(b,10)/1e8;
-    display5.innerHTML=1+parseInt(b,10)/1e8;
-    display6.innerHTML=1+parseInt(b,10)/10;
-    display7.innerHTML=1+parseInt(b,10)/10;
+    const nameValue = document.forms["percentageBiz"]["name"].value;
+    const nyitIdValue = document.forms["percentageBiz"]["nyitid"].value;
+    const b = parseInt(nyitIdValue[5])+3;
+    const c = parseInt(nyitIdValue[4]);
+    var d = 
+    document.getElementById("display").innerHTML = nameValue
+    document.getElementById("display1_1").innerHTML = [1/b, 1/(b-1), 1/(b-2)];
+    document.getElementById("display1_2").innerHTML = [1/(1+b), 1/b, 1/(b-1)];
+    document.getElementById("display1_3").innerHTML = [1/(2+b), 1/(b+1), 1/b];
+    document.getElementById("display1_4").innerHTML = [1, 1, 1];
+    document.getElementById("display2_1").innerHTML = 1+b/10;
+    document.getElementById("display2_1").innerHTML = 1+c/10;
+    document.getElementById("display3_1").innerHTML = 1+b%4;
+    document.getElementById("display3_2").innerHTML = 1+c%4;
     return false
 }
 </script>
@@ -37,11 +39,11 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
-**A** = [<span id="display2_1" ></span><br>
-<span id="display2_2" ></span><br>
-<span id="display2_3" ></span>]
+**A** = [<span id="display1_1" ></span><br>
+<span id="display1_2" ></span><br>
+<span id="display1_3" ></span>]
 <br>
-**b** = [<span id="display3" ></span>]<sup>T</sup>
+**b** = [<span id="display1_4" ></span>]<sup>T</sup>
 <br>
 
 (i)	Use the matrix inverse to solve for the **c**.<br>
@@ -54,9 +56,9 @@ Determine the solution of the simultaneous nonlinear equations<br>
 ![alt text](Images/eq1.png "eq1")
 
 Use Newton-Raphson method and employ initial guesses of <br>
-_**x<sub>1</sub>**_ = <span id="display4" ></span><br>
+_**x<sub>1</sub>**_ = <span id="display2_1" ></span><br>
 
-_**x<sub>2</sub>**_ = <span id="display5" ></span><br>
+_**x<sub>2</sub>**_ = <span id="display2_2" ></span><br>
 
 (i) Write and calculate Jacobian matrix. <br>
 (ii) Calculate x<sub>1</sub> and x<sub>2</sub> after first iteration and calculate _f<sub>1</sub>_ and _f<sub>2</sub>_ with updated x<sub>1</sub>, x<sub>2</sub>.<br>
@@ -75,8 +77,8 @@ Applying the guess **x = x<sub>0</sub>e<sup>iω<sub>n</sub>t</sup>** as a soluti
 
 where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> is the natural, or resonant, frequency (radians/s).
 
-Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = <span id="display6" ></span>(Kg)<br>
-and _**k**_ = <span id="display7" ></span>(N/m)<br>
+Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = <span id="display3_1" ></span>(Kg)<br>
+and _**k**_ = <span id="display3_2" ></span>(N/m)<br>
 
 (i) Use eigenvalues to solve for freqencies.<br>
 (ii) If mass of floors is unknown, based on the observation, the frequency is 0.5, what is possible m<sub>1</sub> mass.<br>
