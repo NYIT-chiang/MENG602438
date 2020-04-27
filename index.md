@@ -12,7 +12,7 @@ Time: 5:45pm - 11:45pm
 <input type="submit" onclick="return getp()" value="Generate Parameters"><br>
 </form>
 <br>
-The question is for student: 
+The problems are for student: 
 <div id="display" style="height: 25px; width: 100%; font-weight: bold;"></div>
 <br>
 
@@ -37,7 +37,7 @@ function getp(){
 </script>
 
 ## Problem 1 
-A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
+A set of simultaneous linear algebraic equations is expressed as: **A** x **c** = **b**<br>
 
 **A** = [<span id="display1_1" ></span><br>
 <span id="display1_2" ></span><br>
