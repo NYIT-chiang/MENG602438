@@ -39,7 +39,7 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations results: **A** x **c** = **b**<br>
 
-**A** = [<span id="display1_1";step="0.01"; ></span><br>
+**A** = [<span id="display1_1" ></span><br>
 <span id="display1_2" ></span><br>
 <span id="display1_3" ></span>]
 <br>
