@@ -86,12 +86,13 @@ and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 
 <input type="submit" onclick="window.print()" value="Print">
 ## Submission
-Use above print bottom to save your exam sheet to pdf and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Please submit your solution before 11:45pm April 30th 2020. 
+Use above print bottom to save your exam sheet to pdf, and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Scan your handwriting solution to picture or type the solution into Word (.doc). Please submit them before 11:45pm April 30th 2020. 
 
 ### Notice
 If the the values and euqations don't match to your problem sheet, **no credit** will be given for this exam. <br>
-This is an **openbook exam**, any tool, program, or online resource is allowed for the problems. As a mechanical engineer, you should solve these problems by yourself. <br>
+This is an **openbook exam**, any tool, program, or online resource is allowed for the problems. However, as a mechanical engineer, you should solve these problems by yourself. <br>
 
+_For Grader_
 <input type="text" id="pw1" placeholder="access code">
 <input type="submit" onclick="return runsol()" value="Generate Solution">
 
