@@ -88,7 +88,7 @@ and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 ## Submission
 Use above print bottom to save your exam sheet to pdf, and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Scan your handwriting solution to picture or type the solution into Word (.doc). Please submit them before 11:45pm April 30th 2020. 
 
-### Notice
+### Note
 -If the values and equations don't match to your problem sheet, **no credit** will be given for this exam. <br>
 -This is an **open-book exam**, any tool, program, or online resource is allowed for the problems. However, as a mechanical engineer, you should solve these problems by yourself. <br>
 
