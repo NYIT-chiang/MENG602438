@@ -39,8 +39,8 @@ function getp(){
 ## Problem 1 
 A set of simultaneous linear algebraic equations is expressed as: **A** x **c** = **b**<br>
 
-**A** = [<span id="display1_1" ></span><br>
-<span id="display1_2" ></span><br>
+**A** = [<span id="display1_1" ></span>;<br>
+<span id="display1_2" ></span>;<br>
 <span id="display1_3" ></span>]
 <br>
 **b** = [<span id="display1_4" ></span>]<sup>T</sup>
