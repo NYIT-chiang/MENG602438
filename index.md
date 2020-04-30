@@ -80,7 +80,7 @@ where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> 
 Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = <span id="display3_1" ></span> (Kg)<br>
 and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 
-(i) Find eigenvalues and use them to solve for freqencies of mass vibrations.<br>
+(i) Let almda = and ω<sub>n</sub><sup>2</sup>, find eigenvalues and use them to solve for freqencies of mass vibrations.<br>
 (ii) If m<sub>1</sub> is unknown (m<sub>2</sub> is the same), based on the observation, the frequency is 0.1. What is possible m<sub>1</sub>? Show the detail. <br>
 (iii) Describe your approach to find m<sub>1</sub> by iteration method. <br>
 
