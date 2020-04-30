@@ -46,7 +46,7 @@ A set of simultaneous linear algebraic equations is expressed as: **A** x **c** 
 **b** = [<span id="display1_4" ></span>]<sup>T</sup>
 <br>
 
-(i)	Find the inverse matrix **A<sup>-1</sup>**.<br>
+(i)	Find the inverse matrix **A<sup>-1</sup>** and **c**.<br>
 (ii)	Find Euclidean norm of **A** and **A<sup>-1</sup>**<br>
 (iii)	Calculate matrix condition number using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system for minimizing roundoff errors.<br>
 
@@ -89,8 +89,8 @@ and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 Use above print bottom to save your exam sheet to pdf and upload with your solution to **Midterm2 Submission Box** in class's blackboard. Please submit your solution before 11:45pm April 30th 2020. 
 
 ### Notice
-If the the values and euqations don't match to your problem sheet, no credit will be given for this exam. <br>
-This is an openbook exam, any tool, program, or online resource are allowed in the exam. 
+If the the values and euqations don't match to your problem sheet, **no credit** will be given for this exam. <br>
+This is an **openbook exam**, any tool, program, or online resource is allowed in the exam. 
 <br>
 
 <input type="text" id="pw1" placeholder="access code">
