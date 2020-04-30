@@ -46,9 +46,9 @@ A set of simultaneous linear algebraic equations is expressed as: **A** x **c** 
 **b** = [<span id="display1_4" ></span>]<sup>T</sup>
 <br>
 
-(i)	Find the inverse matrix **A<sup>-1</sup>** and **c**.<br>
-(ii)	Find Euclidean norm of **A** and **A<sup>-1</sup>**<br>
-(iii)	Calculate matrix condition number using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system for minimizing roundoff errors.<br>
+(i)	Find Euclidean norm of **A** and **A<sup>-1</sup>**<br>
+(ii)	Calculate matrix condition number using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system for minimizing roundoff errors.<br>
+(iii) Calculate **c** with original A matrix and rounded matrix with suggested digits from (ii), compare the results. 
 
 ## Problem 2 
 Determine the solution of the simultaneous nonlinear equations<br>
