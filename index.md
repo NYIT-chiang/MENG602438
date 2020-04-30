@@ -90,7 +90,9 @@ Use above print bottom to save your exam sheet to pdf, and upload with your solu
 
 ### Note
 -If the values and equations don't match to your problem sheet, **no credit** will be given for this exam. <br>
--This is an **open-book exam**, any tool, program, or online resource is allowed for the problems. However, as a mechanical engineer, you should solve these problems by yourself. <br>
+-This is an **open-book exam**, any tool, program, or online resource is allowed for the problems. <br>
+-Discussion with classmate is not allowed in this exam. <br>
+-Stay safe and healthy!
 
 _For Grader_<br>
 <input type="text" id="pw1" placeholder="access code">
