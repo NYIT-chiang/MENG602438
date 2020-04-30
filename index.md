@@ -81,7 +81,7 @@ Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = <span id="display3_1" ></span> (
 and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 
 (i) Use eigenvalues to solve for freqencies.<br>
-(ii) If m<sub>1</sub> is unknown, based on the observation, the frequency is 0.1, what is possible m<sub>1</sub>. 
+(ii) If m<sub>1</sub> is unknown, based on the observation, the frequency is 0.1, what is possible m<sub>1</sub>. <br>
 (iii) Describe your approach to find m<sub>1</sub> by iteration method. <br>
 
 <input type="submit" onclick="window.print()" value="Print">
