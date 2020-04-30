@@ -80,8 +80,8 @@ where x<sub>i</sub> represent horizontal floor displacement, and ω<sub>n</sub> 
 Let **_m<sub>1</sub>_** = **_m<sub>2</sub>_** = <span id="display3_1" ></span> (Kg)<br>
 and _**k**_ = <span id="display3_2" ></span> (N/m)<br>
 
-(i) Use eigenvalues to solve for freqencies.<br>
-(ii) If m<sub>1</sub> is unknown, based on the observation, the frequency is 0.1, what is possible m<sub>1</sub>. <br>
+(i) Find eigenvalues and use them to solve for freqencies of mass vibrations.<br>
+(ii) If m<sub>1</sub> is unknown (m<sub>2</sub> is the same), based on the observation, the frequency is 0.1. What is possible m<sub>1</sub>? Show the detail. <br>
 (iii) Describe your approach to find m<sub>1</sub> by iteration method. <br>
 
 <input type="submit" onclick="window.print()" value="Print">
@@ -90,8 +90,7 @@ Use above print bottom to save your exam sheet to pdf and upload with your solut
 
 ### Notice
 If the the values and euqations don't match to your problem sheet, **no credit** will be given for this exam. <br>
-This is an **openbook exam**, any tool, program, or online resource is allowed in the exam. 
-<br>
+This is an **openbook exam**, any tool, program, or online resource is allowed for the problems. As a mechanical engineer, you should solve these problems by yourself. <br>
 
 <input type="text" id="pw1" placeholder="access code">
 <input type="submit" onclick="return runsol()" value="Generate Solution">
