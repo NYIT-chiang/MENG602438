@@ -47,7 +47,7 @@ A set of simultaneous linear algebraic equations is expressed as: **A** x **c** 
 <br>
 
 (i)	Find Euclidean norm of **A** and **A<sup>-1</sup>**<br>
-(ii)	Calculate matrix condition number using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system for minimizing roundoff errors.<br>
+(ii)	Calculate **matrix's condition number** using Euclidean norms, and aslo determine how many suspect digits would be needed by solving this system for minimizing roundoff errors.<br>
 (iii) Calculate **c** with original A matrix and rounded matrix with suggested digits from (ii), compare the results. 
 
 ## Problem 2 
